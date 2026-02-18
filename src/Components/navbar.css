@@ -1,0 +1,75 @@
+.navbar-section {
+    display: flex;
+    border: 1px solid black;
+    height: 76px;
+    align-items: center;
+    margin: 32px 35px 0 35px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.navbar-section a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-right li {
+    border: 1px solid black;
+}
+
+.navbar-email {
+    padding: 6px;
+}
+
+.navbar-left p {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.nav-links {
+    list-style-type: none;
+    border-radius: 7px;
+}
+
+.navbar-left {
+    display: flex;
+    margin-left: 40px;
+    gap: 34px;
+}
+
+.navbar-right ul {
+    display: flex;
+    margin-right: 40px;
+    gap: 17px;
+}
+
+.CV {
+    background-color: black;
+    color: white;
+    padding: 6px 22px 6px 22px;
+}
+
+.navbar-right li {
+    padding: 6px 22px 6px 22px;
+}
+
+.navbar-right li:hover {
+    color: white;
+    background-color: black;
+}
+
+.CV:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+    .navbar-section {
+        height: 66px;
+    }
+    .navbar-right li {
+        padding: 4px 18px 4px 18px;
+    }
+}

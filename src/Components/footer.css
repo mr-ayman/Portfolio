@@ -1,0 +1,95 @@
+.FooterSection {
+  border: 1px solid black;
+  border-radius: 48px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -80px;
+  background-color: white;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.footer-email-linkedin {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 27px;
+  margin-top: 35px;
+}
+
+.FooterSection h1 {
+  font-size: 60px;
+}
+
+.footer-containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 25px;
+}
+
+.footer-para {
+  font-size: 20px;
+  opacity: 50%;
+}
+
+.footer-containers p {
+  font-size: 20px;
+}
+
+.FooterSection hr {
+  width: 90%;
+  margin-top: auto;
+  opacity: 60%;
+}
+
+.footer-links {
+  font-size: 25px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 1300px) {
+  .FooterSection {
+    margin-top: -50px;
+  }
+  .footer-para {
+    font-size: 18px;
+    opacity: 50%;
+  }
+  .FooterSection h1 {
+    font-size: 50px;
+  }
+  .footer-email-linkedin {
+    border-radius: 23px;
+    margin-top: 32px;
+  }
+  .footer-containers {
+    padding: 20px;
+  }
+  .footer-containers p {
+    font-size: 17px;
+  }
+  .footer-links {
+    font-size: 20px;
+  }
+}
