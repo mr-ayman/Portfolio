@@ -68,6 +68,15 @@
   color: black;
 }
 
+.footer-linkedin-icon {
+  width: 31px;
+  height: 31px;
+}
+
+.footer-linkedin {
+  cursor: pointer;
+}
+
 @media (max-width: 1300px) {
   .FooterSection {
     margin-top: -50px;

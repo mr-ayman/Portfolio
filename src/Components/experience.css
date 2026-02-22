@@ -1,212 +1,212 @@
 .ExperienceSection {
-    border: 1px solid black;
-    border-radius: 48px;
-    height: 115vh;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    margin-top: -80px;
-    background-color: white;
+  border: 1px solid black;
+  border-radius: 48px;
+  height: 115vh;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: -80px;
+  background-color: white;
 }
 
 .experience-line {
-    height: 5px;
-    width: 225px;
-    background-color: black;
+  height: 5px;
+  width: 225px;
+  background-color: black;
 }
 
 .experience-top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .experience-techstack {
-    border: 1px solid black;
-    width: 985px;
-    height: 453px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 30px;
-    gap: 50px;
+  border: 1px solid black;
+  width: 985px;
+  height: 453px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  gap: 50px;
 }
 
 .experience-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .techbtop {
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .experience-top h1 {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .experience-bottom hr {
-    width: 100%;
-    background-color: black;
+  width: 100%;
+  background-color: black;
 }
 
 .tech-boxes {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .tech-containers {
-    border: 1px solid black;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-    gap: 8px;
+  border: 1px solid black;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  gap: 8px;
 }
 
 .tech-containers:nth-child(7) {
-    grid-column: 3 / 5;
+  grid-column: 3 / 5;
 }
 
 .tech-containers:nth-child(12) {
-    grid-column: 1 / 3;
+  grid-column: 1 / 3;
 }
 
 .tech-containers:nth-child(13) {
-    grid-column: 3 / 5;
+  grid-column: 3 / 5;
 }
 
 .tech-container6 img {
-    width: 25px;
+  width: 25px;
 }
 
 .tech-container13 img {
-    width: 25px;
+  width: 25px;
 }
 
 .tech-containers:hover {
-    transform: translateY(-8px) scale(1.03);
-    cursor: pointer;
+  transform: translateY(-8px) scale(1.03);
+  cursor: pointer;
 }
 
 .tech-containers {
-    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tech-container1:hover {
-    box-shadow: 0 8px 20px #e4b758;
-    border: 1px solid #e4b758;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #e4b758;
+  border: 1px solid #e4b758;
+  cursor: pointer;
 }
 
 .tech-container2:hover {
-    box-shadow: 0 8px 20px #ea4b4b;
-    border: 1px solid #ea4b4b;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #ea4b4b;
+  border: 1px solid #ea4b4b;
+  cursor: pointer;
 }
 
 .tech-container3:hover {
-    box-shadow: 0 8px 20px #457bf0;
-    border: 1px solid #457bf0;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #457bf0;
+  border: 1px solid #457bf0;
+  cursor: pointer;
 }
 
 .tech-container4:hover {
-    box-shadow: 0 8px 20px #625af5;
-    border: 1px solid #625af5;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #625af5;
+  border: 1px solid #625af5;
+  cursor: pointer;
 }
 
 .tech-container5:hover {
-    box-shadow: 0 8px 20px #18a54c;
-    border: 1px solid #18a54c;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #18a54c;
+  border: 1px solid #18a54c;
+  cursor: pointer;
 }
 
 .tech-container6:hover {
-    box-shadow: 0 8px 20px #92c4ff;
-    border: 1px solid #92c4ff;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #92c4ff;
+  border: 1px solid #92c4ff;
+  cursor: pointer;
 }
 
 .tech-container7:hover {
-    box-shadow: 0 8px 20px #eab308;
-    border: 1px solid #eab308;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #eab308;
+  border: 1px solid #eab308;
+  cursor: pointer;
 }
 
 .tech-container8:hover {
-    box-shadow: 0 8px 20px #f7622c;
-    border: 1px solid #f7622c;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #f7622c;
+  border: 1px solid #f7622c;
+  cursor: pointer;
 }
 
 .tech-container9:hover {
-    box-shadow: 0 8px 20px #1478c1;
-    border: 1px solid #1478c1;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #1478c1;
+  border: 1px solid #1478c1;
+  cursor: pointer;
 }
 
 .tech-container10:hover {
-    box-shadow: 0 8px 20px #db2777;
-    border: 1px solid #db2777;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #db2777;
+  border: 1px solid #db2777;
+  cursor: pointer;
 }
 
 .tech-container11:hover {
-    box-shadow: 0 8px 20px #1e4fd8;
-    border: 1px solid #1e4fd8;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #1e4fd8;
+  border: 1px solid #1e4fd8;
+  cursor: pointer;
 }
 
 .tech-container12:hover {
-    box-shadow: 0 8px 20px #8112fa;
-    border: 1px solid #8112fa;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #8112fa;
+  border: 1px solid #8112fa;
+  cursor: pointer;
 }
 
 .tech-container13:hover {
-    box-shadow: 0 8px 20px #0bb8d5;
-    border: 1px solid #0bb8d5;
-    cursor: pointer;
+  box-shadow: 0 8px 20px #0bb8d5;
+  border: 1px solid #0bb8d5;
+  cursor: pointer;
 }
 
 @media (max-width: 1300px) {
-    .ExperienceSection {
-        margin-top: -50px;
-    }
-    .experience-top h1 {
-        font-size: 35px;
-    }
-    .experience-line {
-        height: 5px;
-        width: 170px;
-        background-color: black;
-    }
-    .ExperienceSection {
-        gap: 50px;
-        height: 115vh;
-    }
-    .experience-techstack {
-        border: 1px solid black;
-        width: 700px;
-        height: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-radius: 30px;
-        gap: 30px;
-    }
+  .ExperienceSection {
+    margin-top: -50px;
+  }
+  .experience-top h1 {
+    font-size: 35px;
+  }
+  .experience-line {
+    height: 5px;
+    width: 170px;
+    background-color: black;
+  }
+  .ExperienceSection {
+    gap: 50px;
+    height: 115vh;
+  }
+  .experience-techstack {
+    border: 1px solid black;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    gap: 30px;
+  }
 }

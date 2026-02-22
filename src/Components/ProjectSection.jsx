@@ -2,7 +2,7 @@ import "./project.css"
 
 const ProjectSection = () =>{
     return (
-        <section className="ProjectSection">
+        <section className="ProjectSection" id="ProjectSection">
             <div className="project-top">
                 <h1>Projects</h1>
                 <hr />

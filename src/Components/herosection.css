@@ -1,86 +1,91 @@
 .HeroSection {
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 80vh;
-    justify-content: center;
-    gap: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 80vh;
+  justify-content: center;
+  gap: 100px;
 }
 
 .hero-image {
-    width: 446px;
-    height: 446px;
+  width: 446px;
+  height: 446px;
 }
 
 span {
-    letter-spacing: 10px;
+  letter-spacing: 10px;
 }
 
 .hero-right h2 {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .hero-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-contact {
-    width: 242px;
-    height: 58px;
-    background-color: black;
-    color: white;
-    border: none;
-    font-size: 30px;
-    border-radius: 10px;
-    margin-top: 40px;
+  width: 242px;
+  height: 58px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
 }
 
 .v-line {
-    width: 1px;
-    height: 30px;
-    background-color: black;
+  width: 1px;
+  height: 30px;
+  background-color: black;
 }
 
 .hero-description1 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .hero-links {
-    display: flex;
-    border: 1px solid black;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 18px 12px 18px;
-    border-radius: 11px;
-    margin-top: 30px;
+  display: flex;
+  border: 1px solid black;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px 12px 18px;
+  border-radius: 11px;
+  margin-top: 30px;
 }
 
 .hero-contact:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.hero-links img:hover {
+  transition: 0.5s ease;
+  transform: rotate(360deg);
 }
 
 @media (max-width: 1300px) {
-    .hero-image {
-        width: 380px;
-        height: 380px;
-    }
-    .hero-right h2 {
-        font-size: 35px;
-    }
-    .hero-contact {
-        width: 232px;
-        height: 48px;
-        background-color: black;
-        color: white;
-        border: none;
-        font-size: 25px;
-        border-radius: 10px;
-        margin-top: 30px;
-    }
+  .hero-image {
+    width: 380px;
+    height: 380px;
+  }
+  .hero-right h2 {
+    font-size: 35px;
+  }
+  .hero-contact {
+    width: 232px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
 }
