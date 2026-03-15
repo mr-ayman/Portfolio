@@ -1,5 +1,6 @@
 import "./herosection.css"
 
+
 const HeroSection = () =>{
     return (
         <section className="HeroSection">
