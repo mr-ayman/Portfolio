@@ -1,4 +1,17 @@
-import "./experience.css"
+import "./experience.css";
+import python from "src/assets/Python.svg";
+import java from "src/assets/Java.svg";
+import mysql from "src/assets/mysql.svg";
+import c from "src/assets/C.svg";
+import cpp from "src/assets/c++.svg";
+import reacticon from "src/assets/reacticon.png";
+import js from "src/assets/JavaScript.svg";
+import html from "src/assets/html.svg";
+import css from "src/assets/css.svg";
+import figma from "src/assets/Figma.svg";
+import php from "src/assets/php.svg";
+import bs from "src/assets/Bootstrap.svg";
+import tc from "src/assets/tailwindcssicon.png";
 
 const ExperienceSection = () =>{
     return (
@@ -16,55 +29,55 @@ const ExperienceSection = () =>{
                 
                     <div className="tech-boxes">
                         <div className="tech-containers tech-container1">
-                            <img src="src/assets/Python.svg" alt="" />
+                            <img src={python} alt="" />
                             <p>Python</p>
                         </div>
                         <div className="tech-containers tech-container2">
-                            <img src="src/assets/Java.svg" alt="" />
+                            <img src={java} alt="" />
                             <p>Java</p>
                         </div>
                         <div className="tech-containers tech-container3">
-                            <img src="src/assets/mysql.svg" alt="" />
+                            <img src={mysql} alt="" />
                             <p>MySql</p>
                         </div>
                         <div className="tech-containers tech-container4">
-                            <img src="src/assets/C.svg" alt="" />
+                            <img src={c} alt="" />
                             <p>C</p>
                         </div>
                         <div className="tech-containers tech-container5">
-                            <img src="src/assets/c++.svg" alt="" />
+                            <img src={cpp} alt="" />
                             <p>C++</p>
                         </div>
                         <div className="tech-containers tech-container6">
-                            <img src="src/assets/reacticon.png" alt="" />
+                            <img src={reacticon} alt="" />
                             <p>React</p>
                         </div>
                         <div className="tech-containers tech-container7">
-                            <img src="src/assets/JavaScript.svg" alt="" />
+                            <img src={js} alt="" />
                             <p>JavaScript</p>
                         </div>
                         <div className="tech-containers tech-container8">
-                            <img src="src/assets/html.svg" alt="" />
+                            <img src={html} alt="" />
                             <p>HTML</p>
                         </div>
                         <div className="tech-containers tech-container9">
-                            <img src="src/assets/css.svg" alt="" />
+                            <img src={css} alt="" />
                             <p>CSS</p>
                         </div>
                         <div className="tech-containers tech-container10">
-                            <img src="src/assets/Figma.svg" alt="" />
+                            <img src={figma} alt="" />
                             <p>Figma</p>
                         </div>
                         <div className="tech-containers tech-container11">
-                            <img src="src/assets/php.svg" alt="" />
+                            <img src={php} alt="" />
                             <p>PHP</p>
                         </div>
                         <div className="tech-containers tech-container12">
-                            <img src="src/assets/Bootstrap.svg" alt="" />
+                            <img src={bs} alt="" />
                             <p>Bootstrap</p>
                         </div>
                         <div className="tech-containers tech-container13">
-                            <img src="src/assets/tailwindcssicon.png" alt="" />
+                            <img src={tc} alt="" />
                             <p>Tailwind CSS</p>
                         </div>
                     </div>
