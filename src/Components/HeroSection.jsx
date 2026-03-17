@@ -1,10 +1,10 @@
 import "./herosection.css";
-import heroprofile from 'src/assets/hero-profile.png';
-import heroimage1 from 'src/assets/heroimg1.svg';
-import heroimage2 from 'src/assets/heroimg2.svg';
-import heroimage3 from 'src/assets/heroimg3.svg';
-import heroimage4 from 'src/assets/heroimg4.svg';
-import heroimage5 from 'src/assets/heroimg5.svg';
+import heroprofile from '../assets/hero-profile.png';
+import heroimage1 from '../assets/heroimg1.svg';
+import heroimage2 from '../assets/heroimg2.svg';
+import heroimage3 from '../assets/heroimg3.svg';
+import heroimage4 from '../assets/heroimg4.svg';
+import heroimage5 from '../assets/heroimg5.svg';
 
 
 const HeroSection = () =>{

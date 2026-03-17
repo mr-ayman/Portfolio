@@ -1,17 +1,17 @@
 import "./experience.css";
-import python from "src/assets/Python.svg";
-import java from "src/assets/Java.svg";
-import mysql from "src/assets/mysql.svg";
-import c from "src/assets/C.svg";
-import cpp from "src/assets/c++.svg";
-import reacticon from "src/assets/reacticon.png";
-import js from "src/assets/JavaScript.svg";
-import html from "src/assets/html.svg";
-import css from "src/assets/css.svg";
-import figma from "src/assets/Figma.svg";
-import php from "src/assets/php.svg";
-import bs from "src/assets/Bootstrap.svg";
-import tc from "src/assets/tailwindcssicon.png";
+import python from "../assets/Python.svg";
+import java from "../assets/Java.svg";
+import mysql from "../assets/mysql.svg";
+import c from "../assets/C.svg";
+import cpp from "../assets/c++.svg";
+import reacticon from "../assets/reacticon.png";
+import js from "../assets/JavaScript.svg";
+import html from "../assets/html.svg";
+import css from "../assets/css.svg";
+import figma from "../assets/Figma.svg";
+import php from "../assets/php.svg";
+import bs from "../assets/Bootstrap.svg";
+import tc from "../assets/tailwindcssicon.png";
 
 const ExperienceSection = () =>{
     return (

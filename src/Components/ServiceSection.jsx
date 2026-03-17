@@ -1,6 +1,6 @@
 import "./servicesection.css";
-import uiux from "src/assets/uiux.svg";
-import fss from "src/assets/full-stack.svg";
+import uiux from "../assets/uiux.svg";
+import fss from "../assets/full-stack.svg";
 
 const ServiceSection = () =>{
     return (
