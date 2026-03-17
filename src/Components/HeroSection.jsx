@@ -1,11 +1,12 @@
-import "./herosection.css"
+import "./herosection.css";
+import heroimage from 'src/assets/hero-profile.png';
 
 
 const HeroSection = () =>{
     return (
         <section className="HeroSection">
             <div className="hero-left">
-                <img className="hero-image" src="src/assets/hero-profile.png" alt="" />
+                <img className="hero-image" src={heroimage} alt="" />
             </div>
             <div className="hero-right">
                 <h2 className="hero-name">I’m Abdul Gani Ayman</h2>
