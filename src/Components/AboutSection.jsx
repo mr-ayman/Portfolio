@@ -1,4 +1,5 @@
 import "./about.css";
+import aboutprofile from '../assets/about-profile.png';
 
 const AboutSection = () => {
     return (
@@ -10,7 +11,7 @@ const AboutSection = () => {
             
             <div className="about-bottom">
                 <div className="about-left">
-                    <img className="about-profile" src="src/assets/about-profile.png" alt="" />
+                    <img className="about-profile" src={aboutprofile} alt="" />
                 </div>
                 <div className="about-right">
                     <div className="About-right-top">

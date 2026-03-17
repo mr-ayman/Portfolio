@@ -1,5 +1,5 @@
 import './footer.css'
-
+import linkedinicon2 from '../assets/linkedin-icon2.png';
 const FooterSection =() =>{
     return (
         <section className="FooterSection" id='ContactSection'>
@@ -18,7 +18,7 @@ const FooterSection =() =>{
                                     "_blank"
                                 );
                                 }}>
-                            <img src="src/assets/linkedin-icon2.png" className='footer-linkedin-icon' alt="" />
+                            <img src={linkedinicon2} className='footer-linkedin-icon' alt="" />
                             <p>LinkedIn</p>
                         </div>
                     </div>
