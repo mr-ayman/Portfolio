@@ -107,3 +107,34 @@
         gap: 60px;
     }
 }
+
+@media (max-width: 420px) {
+    .about-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+    }
+    .AboutSection {
+        height: 250vh;
+    }
+    .About-right-top {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .about-para {
+        font-size: 18px;
+        display: flex;
+        margin: 0 40px;
+        text-align: center;
+    }
+    .about-para br {
+        display: none;
+    }
+    .about-right {
+        align-items: center;
+        justify-content: center;
+    }
+}

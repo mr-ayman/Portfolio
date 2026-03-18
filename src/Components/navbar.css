@@ -73,3 +73,30 @@
         padding: 4px 18px 4px 18px;
     }
 }
+
+@media (max-width: 420px) {
+    .navbar-section {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        height: 106px;
+        align-items: center;
+        margin: 20px 15px 0 15px;
+        border-radius: 5px;
+        justify-content: center;
+        gap: 20px;
+    }
+    .navbar-right ul {
+        display: flex;
+        margin: 0px;
+        gap: 12px;
+    }
+    .navbar-right li {
+        padding: 4px 12px 4px 12px;
+    }
+    .navbar-left {
+        display: flex;
+        margin: 0px;
+        gap: 24px;
+    }
+}
