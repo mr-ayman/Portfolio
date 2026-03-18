@@ -213,7 +213,7 @@
 
 @media (max-width: 768px) {
     .ExperienceSection {
-        height: 130vh;
+        height: auto;
     }
     .experience-techstack {
         width: 380px;

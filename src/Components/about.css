@@ -117,7 +117,7 @@
         justify-content: center;
     }
     .AboutSection {
-        height: 250vh;
+        height: auto;
     }
     .About-right-top {
         display: flex;

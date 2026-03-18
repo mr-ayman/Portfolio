@@ -110,6 +110,6 @@
         justify-content: center;
     }
     .ServiceSection {
-        height: 210vh;
+        height: auto;
     }
 }

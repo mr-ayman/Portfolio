@@ -97,7 +97,7 @@ span {
         align-items: center;
         margin-left: 30px;
         margin-right: 30px;
-        height: 150vh;
+        height: auto;
         justify-content: center;
         gap: 40px;
         margin: 20px 0;
