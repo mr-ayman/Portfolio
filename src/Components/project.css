@@ -137,7 +137,7 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 768px) {
     .ProjectSection {
         height: auto;
         padding-bottom: 40px;

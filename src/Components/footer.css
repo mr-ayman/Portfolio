@@ -103,7 +103,7 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 768px) {
     .FooterSection h1 {
         font-size: 40px;
     }
