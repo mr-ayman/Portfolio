@@ -105,12 +105,13 @@ span {
     span {
         letter-spacing: 5px;
     }
-    .hero-right h2 {
-        font-size: 25px;
+    .hero-name {
+        font-size: 25px !important;
     }
     .hero-description1,
     .hero-description2 {
         display: inline;
+        font-size: 23px !important;
     }
     .hero-description2 {
         margin-left: 8px;
