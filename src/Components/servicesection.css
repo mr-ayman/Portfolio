@@ -112,4 +112,7 @@
     .ServiceSection {
         height: auto;
     }
+    .service-container2 {
+        margin-bottom: 100px;
+    }
 }

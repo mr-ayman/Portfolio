@@ -219,6 +219,7 @@
         width: 380px;
         height: 420px;
         gap: 10px;
+        margin-bottom: 100px;
     }
     .tech-boxes {
         display: flex;

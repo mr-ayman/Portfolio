@@ -16,7 +16,7 @@ const ServiceSection = () =>{
                     <h2>UI/UX - Design</h2>
                     <p>Creating intuitive and visually <br></br>appealing designs that enhance user <br></br>experience through wireframing, <br></br>prototyping, and interaction design.</p>
                 </div>
-                <div className="service-container1 service-container">
+                <div className="service-container2 service-container">
                     <img src={fss} alt="" />
                     <hr className="line-service" />
                     <h2>Full-stack Developer</h2>
