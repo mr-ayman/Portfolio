@@ -1,5 +1,7 @@
 import "./about.css";
 import aboutprofile from '../assets/about-profile.png';
+import experienceicon from '../assets/Experience.svg';
+import educationicon from '../assets/Education.svg';
 
 const AboutSection = () => {
     return (
@@ -16,12 +18,12 @@ const AboutSection = () => {
                 <div className="about-right">
                     <div className="About-right-top">
                         <div className="about-experience about-box">
-                            <img src="src/assets/Experience.svg" alt="" />
+                            <img src={experienceicon} alt="" />
                             <h3>Experience</h3>
                             <p>Nothing</p>
                         </div>
                         <div className="about-education about-box">
-                            <img src="src/assets/Education.svg" alt="" />
+                            <img src={educationicon} alt="" />
                             <h3>Education</h3>
                             <p>3rd Year B.Tech CSE(IOT)</p>
                         </div>
