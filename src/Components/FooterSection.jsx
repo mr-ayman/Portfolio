@@ -1,5 +1,6 @@
 import './footer.css'
 import linkedinicon2 from '../assets/linkedin-icon2.png';
+import email from '../assets/email.svg'
 const FooterSection =() =>{
     return (
         <section className="FooterSection" id='ContactSection'>
@@ -8,7 +9,7 @@ const FooterSection =() =>{
                     <h1>Contact Me</h1>
                     <div className="footer-email-linkedin">
                         <div className="footer-containers footer-email">
-                            <img src="src/assets/email.svg" alt="" />
+                            <img src={email} alt="" />
                             <p>aganiayman063@gmail.com</p>
                         </div>
                         <div className="footer-containers footer-linkedin"
