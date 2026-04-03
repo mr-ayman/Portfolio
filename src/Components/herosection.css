@@ -1,3 +1,8 @@
+.hero-name {
+    min-height: 1.2em;
+    white-space: nowrap;
+}
+
 .HeroSection {
     display: flex;
     align-items: center;
@@ -6,11 +11,6 @@
     height: 80vh;
     justify-content: center;
     gap: 100px;
-}
-
-.hero-image {
-    width: 446px;
-    height: 446px;
 }
 
 span {
@@ -68,6 +68,15 @@ span {
 .hero-links img:hover {
     transition: 0.5s ease;
     transform: rotate(360deg);
+}
+
+.hero-image {
+    width: 446px;
+    height: 446px;
+    border-radius: 50% 50% 50% 10px;
+    /* top-left top-right bottom-right bottom-left */
+    object-fit: cover;
+    animation: revealImage 1s cubic-bezier(0.22, 1, 0.36, 1) both, floatImage 4s ease-in-out 1s infinite;
 }
 
 @media (max-width: 1300px) {
